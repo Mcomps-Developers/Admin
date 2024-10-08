@@ -194,9 +194,9 @@
     var retina = window.devicePixelRatio > 1 ? true : false;
       if(retina) {
         if ($(".dark-theme").length > 0) {
-          $('#logo_header').attr({src:'images/logo/logo.png',width:'154px',height:'52px'});
+          $('#logo_header').attr({src:'https://placehold.co/738x177',width:'154px',height:'52px'});
         } else {
-          $('#logo_header').attr({src:'images/logo/logo.png',width:'154px',height:'52px'});
+          $('#logo_header').attr({src:'https://placehold.co/738x177',width:'154px',height:'52px'});
         }
       }
   };  
